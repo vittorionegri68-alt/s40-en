@@ -1,0 +1,36 @@
+{
+  "_comment": "Single source of truth for the build scripts (generate-*.mjs). Change the domain here AND in index.html, public/robots.txt, public/sitemap.xml, public/llms.txt, public/ai.txt, privacy.html when the final domain goes live.",
+  "brand": "S40 Fietsservice",
+  "city": "Nijkerk",
+  "lang": "en",
+  "locale": "en-GB",
+  "siteUrl": "https://en.s40.nl",
+  "instagramUrl": "https://www.instagram.com/s40service/",
+  "ui": {
+    "back": "Back to S40 Fietsservice",
+    "backHref": "/#news",
+    "share": "Share",
+    "shareCopied": "Link copied",
+    "sharePrompt": "Copy the link to this article:",
+    "readAlso": "Read also",
+    "followText": "Follow us on Instagram for news from the workshop and the race.",
+    "ctaTitle": "A question about your bike?",
+    "ctaText": "Feel free to walk in at Singel 40 or book an appointment.",
+    "ctaLabel": "Book an appointment",
+    "ctaHref": "/#contact",
+    "footerHome": "S40 Fietsservice Nijkerk, back to the homepage",
+    "noscriptBlogTitle": "Blog and news from S40 Fietsservice Nijkerk",
+    "country": "the Netherlands"
+  },
+  "gaId": "G-TEST123",
+  "altLang": "nl",
+  "altSiteUrl": "https://s40.nl",
+  "contentUpdated": "2026-11-03",
+  "postAlternates": {
+    "road-bike-specialist-nijkerk": "racefietsenmaker-nijkerk",
+    "gravel-bike-service-nijkerk": "gravelbike-onderhoud-nijkerk",
+    "bike-fit-nijkerk": "bikefit-nijkerk",
+    "news-suela-schouten": "nieuws-suela-schouten"
+  },
+  "_comment2": "altSiteUrl and postAlternates feed hreflang links in the generated blog pages and sitemap.xml. postAlternates maps a post id of this repo to the id of the same article in the other language repo."
+}
