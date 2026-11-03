@@ -1,0 +1,115 @@
+// Blog and news posts (English). NEW POSTS GO FIRST in the array (prepend, index 0).
+//
+// Fields:
+//   id        internal key, unaccented, used for internal links and the page slug
+//   titolo    title (visible, accents allowed)
+//   data      publication date YYYY-MM-DD
+//   categoria "Blog" or "Nieuws"
+//   sommario  2-3 sentence summary (used as meta description)
+//   contenuto array of blocks:
+//     { tipo: "paragrafo", testo }            paragraph; use [[label|post-id]] for an internal link
+//     { tipo: "titoletto", testo }            sub heading
+//     { tipo: "immagine", testo: "/assets/images/x.webp", etichetta: "alt text and caption" }
+//     { tipo: "link", testo: "https://...", etichetta: "button label" }
+//   attivo    true to publish, false to hide (build removes its static page)
+//
+// This file must contain plain JavaScript objects only (no JSX): the build scripts import it as an ES module.
+// "Read also" blocks are added automatically (the 2 most recent other posts); do not write them by hand.
+
+export const posts = [
+  {
+    id: "news-suela-schouten",
+    titolo: "S40 Fietsservice sponsors BMX racer Suéla Schouten from Nijkerk",
+    data: "2026-11-03",
+    categoria: "News",
+    sommario:
+      "Suéla Schouten from Nijkerk became BMX world champion in the Women 30-39 class in 2025. S40 Fietsservice is proud to sponsor her and to keep her bike race-ready.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "BMX racer Suéla Schouten comes from Nijkerk and rides championships in the BMX Women and Cruiser classes. S40 Fietsservice is proud to sponsor her, and her BMX comes to our workshop for maintenance and set-up." },
+      { tipo: "immagine", testo: "/assets/images/suela-schouten-bmx.webp", etichetta: "Suéla Schouten with her BMX, plate number 12, in front of a green wall" },
+      { tipo: "titoletto", testo: "World champion in Copenhagen" },
+      { tipo: "paragrafo", testo: "In the summer of 2025, Suéla became BMX world champion in the Women 30-39 class at the World Championships in Copenhagen. According to local news, she won all the motos and the finals there." },
+      { tipo: "titoletto", testo: "European and Dutch success too" },
+      { tipo: "paragrafo", testo: "In 2024, Suéla became European champion in the Cruiser Women 30-39 class, with the final in Verona, Italy. She also won several Dutch titles in the Women 17+ and Cruiser classes, including in 2022 in Uithoorn." },
+      { tipo: "titoletto", testo: "What we do for her" },
+      { tipo: "paragrafo", testo: "BMX racing asks a lot of a bike, brakes included. For Suéla we solved the typical BMX brake problem. Servicing and setting up race BMX bikes is part of the work in our workshop, alongside road bikes, gravel bikes and track bikes." },
+      { tipo: "paragrafo", testo: "Want to know what else we do? Read [[where to go in Nijkerk as a road cyclist|road-bike-specialist-nijkerk]]." },
+      { tipo: "link", testo: "https://www.instagram.com/suelaschouten/", etichetta: "Follow Suéla on Instagram" },
+    ],
+    attivo: true,
+  },
+  {
+    id: "bike-fit-nijkerk",
+    titolo: "What is a bike fit and where can you get one near Nijkerk?",
+    data: "2026-11-03",
+    categoria: "Blog",
+    sommario:
+      "A bike fit sets your bike up for your body, your way of riding and your goals. Read what it is, when it makes sense, what to prepare and where to go near Nijkerk.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "Two cyclists on the same frame never sit exactly the same. Differences in height, flexibility, riding style and goals mean a bike that feels perfect for one rider causes pain or discomfort for another. A bike fit solves that by adapting the bike to you, rather than the other way around." },
+      { tipo: "titoletto", testo: "What is a bike fit?" },
+      { tipo: "paragrafo", testo: "A bike fit, also called a set-up, is the process of adjusting your bike to your body, your way of riding and your goals. The aim is to ride comfortably, efficiently and without pain or discomfort. It covers, among other things, the places where you touch the bike: the saddle, the handlebars and the pedals." },
+      { tipo: "titoletto", testo: "When do you need a bike fit?" },
+      { tipo: "paragrafo", testo: "Your bike is probably not set up well if you have pain or discomfort in your knees, back, neck, shoulders or wrists during or after riding, if your hands or feet go numb, or if you keep sliding forward on your saddle. A bike fit also makes sense with a new or second-hand bike, after a long break or when your body or goals change, and when you prepare for a race or a long ride. If complaints persist, also consult a doctor or physiotherapist." },
+      { tipo: "titoletto", testo: "If you are buying a new or second-hand bike" },
+      { tipo: "paragrafo", testo: "When buying a bike, people often look at size and price. But a frame size on paper says little about how the bike fits your body. If you are considering a new or second-hand bike, you benefit most from someone who looks at the position and the parts that go with it, before you ride many kilometres on it." },
+      { tipo: "paragrafo", testo: "At S40 Fietsservice, Singel 40 in Nijkerk, set-up and bike fit are part of the daily work. The team sets bikes up for your body and your goals, advises on buying a new bike and builds new or second-hand bikes to your wishes. The mechanics are cyclists themselves and do not stop when something works, but when it works in every position." },
+      { tipo: "immagine", testo: "/assets/images/crankset-install.webp", etichetta: "Mechanic fitting a crankset in the workshop" },
+      { tipo: "titoletto", testo: "What can you bring?" },
+      { tipo: "paragrafo", testo: "Bring your own bike, the shoes you ride in and clothing you feel comfortable in. Think beforehand about what complaints you have, how often and how long you ride and what your goal is. Also say whether you have a race or long ride planned. The clearer your question, the more targeted the set-up." },
+      { tipo: "titoletto", testo: "For road bike and gravel too" },
+      { tipo: "paragrafo", testo: "A good set-up matters as much on a road bike as on a gravel bike. Also read [[what to expect from a road bike specialist|road-bike-specialist-nijkerk]] and [[how to get a gravel bike serviced in Nijkerk|gravel-bike-service-nijkerk]]." },
+      { tipo: "titoletto", testo: "Booking an appointment" },
+      { tipo: "paragrafo", testo: "You book via service@s40.nl, by phone on +31 6 26980438 or with the form on the website. Walking in without an appointment is possible too: the workshop is open Tuesday to Friday from 10:00 to 18:00 and on Saturday from 10:00 to 16:00. Prices are on request." },
+    ],
+    attivo: true,
+  },
+  {
+    id: "gravel-bike-service-nijkerk",
+    titolo: "Servicing or repairing a gravel bike in Nijkerk: what you need to know",
+    data: "2026-11-03",
+    categoria: "Blog",
+    sommario:
+      "A gravel bike sees more dirt, sand and water than a road bike. Read what to look out for when servicing it and where to go in Nijkerk for maintenance and repair.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "On a gravel bike you ride asphalt, gravel, sand and forest paths, sometimes all in one ride. That makes it versatile, but also more prone to wear than a bike that mostly rides on dry asphalt. If you look after your gravel bike well, you enjoy it for longer and stand still less often far from home." },
+      { tipo: "titoletto", testo: "Where does a gravel bike wear faster?" },
+      { tipo: "paragrafo", testo: "Sand and mud work their way into the chain, the cogs and the bearings. Water and dirt also load the brakes. If you ride tubeless, the sealant in the tyres dries up over time and must be replaced. The more varied the surface, the more important it is to check regularly instead of waiting for something to go wrong." },
+      { tipo: "titoletto", testo: "A small routine between services" },
+      { tipo: "paragrafo", testo: "After a wet or sandy ride, carefully rinse off the worst dirt, without a pressure washer on the bearings, and dry the bike. Clean the chain and lubricate it again. Check the tyre pressure and listen for new noises from the bottom bracket or the head tube. A chain that stays clean and lubricated lasts longer and shifts better." },
+      { tipo: "immagine", testo: "/assets/images/chain-cleaning-cyclon.webp", etichetta: "A bike chain in the Cyclon cleaning machine" },
+      { tipo: "titoletto", testo: "For those who ride long days off-road" },
+      { tipo: "paragrafo", testo: "If you ride long tours on varied terrain or start gravel races, you need a bike that does not let you down far from home. You want a workshop that understands what such a day asks of your bike and that takes a strange noise seriously, not only what is on the list." },
+      { tipo: "paragrafo", testo: "At S40 Fietsservice, Singel 40 in Nijkerk, cyclists service and repair gravel bikes, just like road bikes, track bikes, BMX bikes and triathlon bikes. The team looks at the whole bike and also takes on jobs that other workshops turn down. For chains, S40 stocks Izumi and is a dealer of Cyclon, known for bike care. The usual turnaround is 24 hours." },
+      { tipo: "titoletto", testo: "Maintenance, repair or something special" },
+      { tipo: "paragrafo", testo: "You can go to S40 Fietsservice for all work: maintenance, repair, parts and accessories, and a custom build. A good set-up also helps on long days: read [[what a bike fit is and when you need one|bike-fit-nijkerk]]. Do you also ride on the road? Then this [[road bike specialist in Nijkerk|road-bike-specialist-nijkerk]] is the place for your road bike too." },
+      { tipo: "titoletto", testo: "Dropping by or booking an appointment" },
+      { tipo: "paragrafo", testo: "Walk in during opening hours: Tuesday to Friday from 10:00 to 18:00, Saturday from 10:00 to 16:00. For a bigger job an appointment helps, via service@s40.nl or +31 6 26980438. Prices are on request, because every bike and every job is different." },
+    ],
+    attivo: true,
+  },
+  {
+    id: "road-bike-specialist-nijkerk",
+    titolo: "Road bike specialist in Nijkerk: where your bike is in good hands",
+    data: "2026-11-03",
+    categoria: "Blog",
+    sommario:
+      "If you own a road bike in or around Nijkerk, you want a workshop that understands what you ask of your bike. This is what to expect from a road bike specialist who races himself and has worked in UCI teams.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "A road bike is not an ordinary bike. A gear that does not quite shift in one position, a saddle a fraction too high or a cable that does not run freely: you feel it on every ride, and in a race it can make the difference. That is why many cyclists in Nijkerk and the surrounding area look not just for a bike shop, but for a road bike specialist." },
+      { tipo: "immagine", testo: "/assets/images/tool-wall.webp", etichetta: "The tool wall in the workshop at Singel 40" },
+      { tipo: "titoletto", testo: "What makes a road bike specialist different?" },
+      { tipo: "paragrafo", testo: "A good road bike specialist does not only look at what is broken, but at how the bike works as a whole: drivetrain, brakes, wheels, position and the way you ride. The difference lies in experience with exactly this kind of bike and in the will to keep going until it is right." },
+      { tipo: "titoletto", testo: "For those who train or race seriously" },
+      { tipo: "paragrafo", testo: "If you ride kilometres every week, ride with a club or start races, you want your bike to do the same thing every time. You do not want to find out in the middle of a descent that something is wrong, and you want a workshop that understands you have a date for a race." },
+      { tipo: "paragrafo", testo: "At S40 Fietsservice, Singel 40, that is daily practice. The cyclists behind the workbench have more than twenty years of experience in Europe, from amateur to professional, worked as mechanics in UCI teams and prepare bikes to UCI rules. They do not stop when the gears shift, but when they work perfectly in every position. And because they ride themselves, they understand why your bike has to be ready on time." },
+      { tipo: "titoletto", testo: "A problem nobody solves?" },
+      { tipo: "paragrafo", testo: "Sometimes a bike has a problem that several workshops fail to solve. S40 Fietsservice takes on such jobs. The time the team spends investigating the problem and looking for the best solution is not charged. In a Google review, a customer writes that other shops could not fix it and that at S40 it was repaired straight away and fast." },
+      { tipo: "titoletto", testo: "What can you have done?" },
+      { tipo: "paragrafo", testo: "You can go to S40 Fietsservice for maintenance and repair, race preparation, parts and accessories, and a custom bike, new or second-hand. Set-up and bike fit are part of it too: read [[what a bike fit is|bike-fit-nijkerk]]. Besides road bikes, the team works on gravel bikes, track bikes, BMX bikes and triathlon bikes. For gravel bike maintenance, [[read on here|gravel-bike-service-nijkerk]]. The usual turnaround is 24 hours." },
+      { tipo: "titoletto", testo: "With or without an appointment" },
+      { tipo: "paragrafo", testo: "You can walk in without an appointment: the workshop is open Tuesday to Friday from 10:00 to 18:00 and on Saturday from 10:00 to 16:00. For a bigger job or a race coming up, an appointment helps. Email service@s40.nl, call +31 6 26980438 or use the form on the website. Prices are on request." },
+    ],
+    attivo: true,
+  },
+];
