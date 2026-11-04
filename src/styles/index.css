@@ -394,3 +394,9 @@ html.pager-on .dots { display: flex; }
 /* Primary buttons inside dark side panels keep their dark label (the panel link colour must not win) */
 .events .btn--primary, .events .btn--primary:hover, .events__follow .btn--primary { color: var(--on-accent); }
 .block--light .events a.btn--primary, .block--light .events a.btn--primary:hover { color: var(--on-accent); }
+.block--light .events a.btn--primary, .block--light .events a.btn--primary:hover { color: var(--on-accent); }
+
+/* Hero intro v2 ... (commento facoltativo) */
+.hero__bg img { opacity: 0; transform: scale(1.07); }
+.hero--in .hero__bg img { opacity: .35; transform: none; transition: opacity 2600ms cubic-bezier(.4, 0, .2, 1) 500ms, transform 3600ms cubic-bezier(.2, .8, .2, 1) 300ms; }
+@media (prefers-reduced-motion: reduce) { .hero__bg img { opacity: .35; transform: none; } }
