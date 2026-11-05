@@ -43,7 +43,7 @@ export const copy = {
     ],
     price: { title: "Prices on request", text: "Every bike and every job is different. Tell us what you ride and what needs to happen.", cta: "Get in touch" },
     also: ["Maintenance and repair, all work", "Race preparation", "Parts and accessories", "Bike sales, custom builds too"],
-    brands: "Dealer of YOONIT and Cyclon. Izumi chains.",
+    brands: "Dealer of YOONIT, CyclOn, Izumi chains.",
     brandsLabel: "Brands we work with",
   },
   about: {
