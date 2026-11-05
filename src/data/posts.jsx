@@ -10,6 +10,7 @@
 //     { tipo: "paragrafo", testo }            paragraph; use [[label|post-id]] for an internal link
 //     { tipo: "titoletto", testo }            sub heading
 //     { tipo: "immagine", testo: "/assets/images/x.webp", etichetta: "alt text and caption" }
+//     { tipo: "logo", testo: "/assets/images/x.png", etichetta: "alt text" }   small brand logo on a light chip, no caption
 //     { tipo: "link", testo: "https://...", etichetta: "button label" }
 //   attivo    true to publish, false to hide (build removes its static page)
 //
@@ -17,6 +18,35 @@
 // "Read also" blocks are added automatically (the 2 most recent other posts); do not write them by hand.
 
 export const posts = [
+  {
+    id: "yoonit-cargo-bikes-nijkerk",
+    titolo: "YOONIT cargo bikes in Nijkerk: see and ride them at S40 Fietsservice",
+    data: "2026-11-05",
+    categoria: "Blog",
+    sommario:
+      "YOONIT builds compact cargo bikes in Hamburg for families, daily errands and work. S40 Fietsservice in Nijkerk is an official dealer, so you can look at several models and take them for a ride.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "A full-size box bike is a lot of bike to store, park and steer through town. If all you need is room for the kids, the dog or the weekly shop, a more compact cargo bike can make more sense. That is the idea behind YOONIT, and you can see it for yourself at S40 Fietsservice in Nijkerk." },
+      { tipo: "logo", testo: "/assets/images/yoonit-logo.png", etichetta: "YOONIT" },
+      { tipo: "titoletto", testo: "Who is YOONIT?" },
+      { tipo: "paragrafo", testo: "YOONIT is a company from Hamburg that designs compact cargo and urban bikes and assembles them there, using European components. It describes its bikes as compact and modular. S40 Fietsservice, at Singel 40 in Nijkerk, is an official YOONIT dealer." },
+      { tipo: "titoletto", testo: "The models" },
+      { tipo: "paragrafo", testo: "The Mini Cargobike is YOONIT's ultra-compact cargo bike for family life and everyday riding: kids, a dog, the shopping. YOONIT says it is light, agile and as easy to ride as an ordinary bike." },
+      { tipo: "paragrafo", testo: "The Micro Utility Bike goes smaller still. YOONIT calls it the tiniest bike with big cargo vibes, with interchangeable crates and baskets. The PRO Business Bike is aimed at trades, craft businesses and community projects." },
+      { tipo: "titoletto", testo: "Pick the set-up that fits your life" },
+      { tipo: "paragrafo", testo: "The Mini Cargobike comes in three use cases: Family Up for the family, Daily Basket and Dog Seat for errands and the dog, and Job Carrier for work. The bikes are fully configurable, so you build the one that suits how you will actually use it." },
+      { tipo: "titoletto", testo: "Baskets, crates and extras" },
+      { tipo: "paragrafo", testo: "The Micro Utility Bike works with interchangeable crates and baskets, and the Mini Cargobike is available in a version with a basket and a dog seat. Exactly which models, set-ups and accessories are in the shop changes over time, so just ask." },
+      { tipo: "titoletto", testo: "Electric drive is an option" },
+      { tipo: "paragrafo", testo: "YOONIT offers electric drive, the Mini Cargobike among them. Ask in the shop what is possible." },
+      { tipo: "titoletto", testo: "See and ride them in Nijkerk" },
+      { tipo: "paragrafo", testo: "At S40 Fietsservice you can look at several YOONIT models and try them. S40 is a workshop of cyclists for cyclists, and the care that goes into setting up a race bike goes into the bike you ride every day too. To see what else we do, read [[where to go in Nijkerk as a road cyclist|road-bike-specialist-nijkerk]]." },
+      { tipo: "titoletto", testo: "Drop in or book an appointment" },
+      { tipo: "paragrafo", testo: "Walk in during opening hours: Tuesday to Friday from 10:00 to 18:00, Saturday from 10:00 to 16:00. To be sure a model is in the shop, book via service@s40.nl or +31 6 26980438. Prices are on request." },
+      { tipo: "link", testo: "https://minicargobike.com/en/", etichetta: "See the models at minicargobike.com" },
+    ],
+    attivo: true,
+  },
   {
     id: "news-suela-schouten",
     titolo: "S40 Fietsservice sponsors BMX racer Suéla Schouten from Nijkerk",
