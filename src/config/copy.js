@@ -89,7 +89,7 @@ export const copy = {
       { src: "/assets/images/sram-red-boxes.webp", alt: "Three boxes with crankset, cassette and chainring next to a chain and pedals" },
       { src: "/assets/images/felt-tt-showroom.webp", alt: "White time trial bike in the shop" },
       { src: "/assets/images/trek-gravel-showroom.webp", alt: "Gravel bike on a work stand in the seating area of the shop" },
-      { src: "/assets/images/chain-cleaning-cyclon.webp", alt: "Bike chain in the Cyclon cleaning machine" },
+      { src: "/assets/images/chain-cleaning-cyclon.webp", alt: "Bike chain in the CyclOn cleaning machine" },
     ],
   },
   qa: {
