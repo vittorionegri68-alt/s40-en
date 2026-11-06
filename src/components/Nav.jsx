@@ -6,7 +6,7 @@ import { site, otherLanguageHref } from "../config/site_config.js";
 
 export default function Nav({ activeId }) {
   const [open, setOpen] = useState(false);
-  const [otherHref, setOtherHref] = useState(site.switcher.otherHrefFinal);
+  const [otherHref, setOtherHref] = useState(otherLanguageHref());
   const c = copy.nav;
 
   useEffect(() => setOtherHref(otherLanguageHref()), []);

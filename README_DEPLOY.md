@@ -57,6 +57,7 @@ Requires Node 18 or newer. `npm run build` does more than `vite build`. In order
 
 - [x] Done (2026-11-06): the real GA4 Measurement ID is set in **two** places, shared by the NL and EN sites. If it ever changes, update both: `index.html` (the gtag script and the config call) and `site.config.json` (`gaId`, used for the generated blog pages).
 - [x] Done (2026-11-06): the validated "ai-referral" GA4 snippet is in `index.html` (directly after the gtag block) and in the generated blog pages (`generate-blog-pages.mjs`). It sends the GA4 event `ai_referral` with `ai_source`, `confidence` and `landing_page`.
+- [ ] At go-live of s40.nl: in `src/config/site_config.js` set `switcher.useStagingLinks` to `false`, so the NL link in the language switcher points to https://s40.nl instead of the staging URL. Until then it points to https://s40-nl.vercel.app.
 - [ ] Add the domain in Vercel (Settings, Domains) and point DNS: https://en.s40.nl.
 - [ ] Confirm the domain values everywhere: `siteUrl` and `altSiteUrl` in `site.config.json`, canonical and hreflang links in `index.html`, `public/robots.txt` (Sitemap line), `public/llms.txt`, `public/ai.txt`, `public/privacy.html` (canonical). Then run `npm run build`.
 - [ ] Language switcher: `src/config/site_config.js` already uses the staging URL on `*.vercel.app` and the final URL elsewhere. Check both directions after both sites are live.
