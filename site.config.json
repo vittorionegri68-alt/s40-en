@@ -20,7 +20,8 @@
     "ctaHref": "/#contact",
     "footerHome": "S40 Fietsservice Nijkerk, back to the homepage",
     "noscriptBlogTitle": "Blog and news from S40 Fietsservice Nijkerk",
-    "country": "the Netherlands"
+    "country": "the Netherlands",
+    "byline": "By Wojtek"
   },
   "gaId": "G-J8VT8BE99N",
   "altLang": "nl",
@@ -34,5 +35,13 @@
     "yoonit-cargo-bikes-nijkerk": "yoonit-cargobikes-nijkerk",
     "colossi-frames-advice-nijkerk": "colossi-frames-nijkerk"
   },
-  "_comment2": "altSiteUrl and postAlternates feed hreflang links in the generated blog pages and sitemap.xml. postAlternates maps a post id of this repo to the id of the same article in the other language repo."
+  "_comment2": "altSiteUrl and postAlternates feed hreflang links in the generated blog pages and sitemap.xml. postAlternates maps a post id of this repo to the id of the same article in the other language repo.",
+  "author": {
+    "name": "Wojciech Krenski",
+    "alternateName": "Wojtek",
+    "jobTitle": "Owner and mechanic",
+    "sameAs": [
+      "https://www.linkedin.com/in/wojciech-kre%C5%84ski-94354910b/"
+    ]
+  }
 }
