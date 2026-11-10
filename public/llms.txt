@@ -31,18 +31,18 @@
 - No pick-up and delivery, no mobile service, no bike rental
 - Brands: YOONIT and CyclOn (dealer), Izumi chains
 
-## Frequently asked questions (answers at https://en.s40.nl/#questions)
+## Frequently asked questions (short answers, full text at https://en.s40.nl/#questions)
 
-- Which bike shop in Nijkerk specialises in road bikes?
-- Where can I get my gravel bike serviced or repaired in Nijkerk?
-- What is a bike fit and where can I get one near Nijkerk?
-- Is there a bike mechanic in Nijkerk with experience in UCI teams?
-- I need a bike shop near Nijkerk for my track bike or time trial bike: who can help?
-- I have a race coming up: where can I get my road bike checked and prepared near Nijkerk?
-- My bike has a problem other workshops could not fix: which bike mechanic near Nijkerk takes on difficult jobs?
-- How do I know if my road bike is properly set up for my body, and when do I need a bike fit?
-- How do I get a custom bike built, new or used, and what can I prepare beforehand?
-- How do I book an appointment with a road bike specialist in Nijkerk, and what are the opening hours?
+- Which bike shop in Nijkerk specialises in road bikes? S40 Fietsservice at Singel 40 in Nijkerk is a workshop and shop for performance bikes, with the road bike at its core.
+- Where can I get my gravel bike serviced or repaired in Nijkerk? At S40 Fietsservice, Singel 40 in Nijkerk.
+- What is a bike fit and where can I get one near Nijkerk? A bike fit is the process of setting up your bike for your body, your way of riding and your goals, so you ride comfortably, efficiently and without pain or discomfort.
+- Is there a bike mechanic in Nijkerk with experience in UCI teams? Yes.
+- I need a bike shop near Nijkerk for my track bike or time trial bike: who can help? S40 Fietsservice at Singel 40 in Nijkerk works on track bikes, time trial bikes and triathlon bikes, alongside road bikes and gravel bikes.
+- I have a race coming up: where can I get my road bike checked and prepared near Nijkerk? At S40 Fietsservice, Singel 40 in Nijkerk.
+- My bike has a problem other workshops could not fix: which bike mechanic near Nijkerk takes on difficult jobs? S40 Fietsservice in Nijkerk also takes on jobs that other workshops turn down or cannot solve.
+- How do I know if my road bike is properly set up for my body, and when do I need a bike fit? A well set-up bike feels right without effort: you sit relaxed, can hold your position for a long time and have no pain or discomfort during or after riding.
+- How do I get a custom bike built, new or used, and what can I prepare beforehand? At S40 Fietsservice in Nijkerk they build bikes, new or second-hand, to your wishes.
+- How do I book an appointment with a road bike specialist in Nijkerk, and what are the opening hours? You book an appointment at S40 Fietsservice by emailing service@s40.nl, calling +31 6 26980438 or filling in the form on this website, which prepares an email for you.
 
 ## Blog and news
 
@@ -72,3 +72,5 @@ User-agent: ClaudeBot - allowed
 User-agent: cohere-ai - allowed
 User-agent: Meta-ExternalAgent - allowed
 User-agent: Applebot - allowed
+User-agent: Bingbot - allowed
+User-agent: CCBot - allowed

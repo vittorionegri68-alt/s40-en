@@ -21,7 +21,8 @@
     "footerHome": "S40 Fietsservice Nijkerk, back to the homepage",
     "noscriptBlogTitle": "Blog and news from S40 Fietsservice Nijkerk",
     "country": "the Netherlands",
-    "byline": "By Wojtek"
+    "byline": "By Wojtek",
+    "breadcrumbBlog": "Blog and news"
   },
   "gaId": "G-J8VT8BE99N",
   "altLang": "nl",
@@ -42,6 +43,15 @@
     "jobTitle": "Owner and mechanic",
     "sameAs": [
       "https://www.linkedin.com/in/wojciech-kre%C5%84ski-94354910b/"
+    ],
+    "knowsAbout": [
+      "Road bikes",
+      "Gravel bikes",
+      "BMX",
+      "Track bikes",
+      "Triathlon and time trial bikes",
+      "Bike fitting",
+      "Cargo bikes"
     ]
   }
 }
