@@ -5,9 +5,9 @@ export const site = {
   brand: "S40 Fietsservice",
   siteUrl: "https://en.s40.nl",
   // Language switcher targets. On *.vercel.app the staging URLs are used, otherwise the final domains.
-  // useStagingLinks: keep true until s40.nl serves the new Dutch site (go-live), then set it to false.
+  // useStagingLinks: false since go-live (10/11/2026). Set to true only to point the EN site at the NL staging while s40.nl is unavailable.
   switcher: {
-    useStagingLinks: true,
+    useStagingLinks: false,
     current: "EN",
     other: "NL",
     otherLabel: "Nederlands",
