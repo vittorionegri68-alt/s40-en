@@ -22,6 +22,32 @@
 
 export const posts = [
   {
+    id: "race-preparation-road-bike-nijkerk",
+    metaTitolo: "Road bike race preparation in Nijkerk | S40 Fietsservice",
+    metaDescrizione: "Got a race coming up? Read how to get your road bike checked and set up at S40 Fietsservice in Nijkerk, and how early to come in.",
+    titolo: "Race coming up? How to get your road bike checked and prepared near Nijkerk",
+    data: "2026-11-27",
+    categoria: "Blog",
+    sommario:
+      "If you have a race coming up, book your road bike in early. Read what the team looks at, what to bring and what to do if the start is closer than you thought.",
+    contenuto: [
+      { tipo: "paragrafo", testo: "If you have a race coming up, bring your road bike to the workshop well ahead of time. The usual turnaround at S40 Fietsservice in Nijkerk is 24 hours, but if you want a proper preparation, do not leave it to the last minute. A problem with your bike is better found in the workshop than halfway through the race." },
+      { tipo: "titoletto", testo: "What gets checked?" },
+      { tipo: "paragrafo", testo: "The team looks at the whole bike, not just the part you are worried about: drivetrain, brakes, wheels and position. Then the bike is set up. If your race calls for UCI rules, mention it when you book and the team will prepare the bike to them." },
+      { tipo: "paragrafo", testo: "Every race asks something different of a bike. A road race, a time trial, a track meeting and a gravel event all have their own demands. S40 works on road bikes, time trial and triathlon bikes, track bikes and gravel bikes, so whichever you race, you can bring it in." },
+      { tipo: "paragrafo", testo: "The mechanics have worked in UCI teams and know the tension around a start line. They ride themselves, so they know what it means when a bike has to be ready by a fixed date. They do not stop when the gears shift, but when everything works in every position." },
+      { tipo: "titoletto", testo: "When to come in and what to bring" },
+      { tipo: "paragrafo", testo: "Book early, preferably not only in race week. That leaves room to deal with a problem calmly if one turns up, rather than under time pressure. Bring the bike as you will race it, and say which race it is and when it takes place. Mention anything you noticed in training too, such as a noise, a gear that hesitates or a brake lever that feels different. The clearer your question, the more targeted the check." },
+      { tipo: "paragrafo", testo: "If something needs investigating first, the team takes the time to get it right. The time spent looking for a solution is not charged." },
+      { tipo: "paragrafo", testo: "After the check, ride the bike a few times on the wheels and tyres you will start on, and check the tyre pressure and that the chain is clean and lubricated. If you notice anything, let us know so it can still be adjusted." },
+      { tipo: "paragrafo", testo: "If you have not been comfortable on your bike for a while, or you get pain or discomfort during or after riding, have the set-up looked at as well. Read [[what a bike fit is and when you need one|bike-fit-nijkerk]]." },
+      { tipo: "paragrafo", testo: "Is the start date close? Call anyway: the team will see what is possible. If your bike has a problem other workshops have not solved, S40 takes that on too. Read [[where to go in Nijkerk as a road cyclist|road-bike-specialist-nijkerk]]." },
+      { tipo: "titoletto", testo: "Dropping by or booking an appointment" },
+      { tipo: "paragrafo", testo: "Walk in during opening hours: Tuesday to Friday from 10:00 to 18:00, Saturday from 10:00 to 16:00. With a race coming up, an appointment helps, via service@s40.nl or +31 6 26980438. The workshop is at Singel 40, 3861 AE Nijkerk, and is closed on Sunday and Monday. Prices are on request." },
+    ],
+    attivo: true,
+  },
+  {
     id: "colossi-frames-advice-nijkerk",
     metaTitolo: "Colossi handmade frames in Nijkerk | S40 Fietsservice",
     metaDescrizione: "Colossi builds handmade Dutch bicycle frames to your size and wishes. S40 Fietsservice in Nijkerk helps you choose a frame and build the bike around it.",
